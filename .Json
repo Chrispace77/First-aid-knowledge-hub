@@ -2,24 +2,28 @@
   "name": "first-aid-knowledge-hub",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "lucide-react": "^0.395.0",
-    "tailwindcss": "^3.4.4"
+    "lucide-react": "^0.395.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
     "vite": "^5.3.1"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
   },
   "eslintConfig": {
     "extends": [
